@@ -38,7 +38,7 @@ const HomeV4 = () => {
         <Banner />
         <CoinInfoSlider />
         {/* <About /> */}
-        {/* <Portfolio /> */}
+        <Portfolio />
         <Banner1 />
         {/* <Team /> */}
         {/* <FAQ /> */}

@@ -7,14 +7,14 @@ import catFootIcon from "../../../../assets/images/icon/cat_foot_print.svg";
 import catFootIconBg from "../../../../assets/images/icon/cat_walk_round_shap.svg";
 import imgFrameShape from "../../../../assets/images/nft/nft-img-shape.png";
 
-import catThumb1 from "../../../../assets/images/nft/cat1.png";
-import catThumb2 from "../../../../assets/images/nft/cat2.png";
-import catThumb3 from "../../../../assets/images/nft/cat3.png";
-import catThumb4 from "../../../../assets/images/nft/cat4.png";
-import catThumb5 from "../../../../assets/images/nft/cat5.png";
-import catThumb6 from "../../../../assets/images/nft/cat6.png";
-import catThumb7 from "../../../../assets/images/nft/cat7.png";
-// import catThumb8 from "../../../../assets/images/nft/home4_baner_img1.png";
+import catThumb1 from "../../../../assets/images/nft/pass mockup.png";
+// import catThumb2 from "../../../../assets/images/nft/cat2.png";
+// import catThumb3 from "../../../../assets/images/nft/cat3.png";
+// import catThumb4 from "../../../../assets/images/nft/cat4.png";
+// import catThumb5 from "../../../../assets/images/nft/cat5.png";
+// import catThumb6 from "../../../../assets/images/nft/cat6.png";
+// import catThumb7 from "../../../../assets/images/nft/cat7.png";
+ import catThumb8 from "../../../../assets/images/nft/pass mockup.png";
 import overlayImg from "../../../../assets/images/nft/v4_baner_mesh-grad.png"
 import star1 from "../../../../assets/images/icon/v4_star1.svg"
 import star2 from "../../../../assets/images/icon/v4_star2.svg"
@@ -25,7 +25,7 @@ import Particle from "./Particles"
 const Banner1 = () => {
   const { mintModalHandle } = useModal();
 
-  // const slideImages = [catThumb1, catThumb2, catThumb3, catThumb4, catThumb5, catThumb6, catThumb7]
+  const slideImages = [catThumb1]
   // const settings = {
   //   dots: false,
   //   arrows: false,
@@ -79,19 +79,16 @@ const Banner1 = () => {
           <div className="col-lg-6 order-0 order-lg-1">
             <div className="bithu_v4_baner_right">
               <div className="banner_card banner_card_angle">
-                {/* <img src={catThumb8} className="banner_img" alt="thumb" /> */}
+                <img src={catThumb8} className="banner_img" alt="thumb" />
                 <div className="banner_card_shapes">
                   <img src={imgFrameShape} alt="shape" />
                 </div>
               </div>
               <div className="banner_card">
-                {/* <Slider {...settings}>
-                  {slideImages?.map((thumb, idx) => (
-                    <SliderItem key={idx}>
-                      <img src={thumb} alt="thumb" />
-                    </SliderItem>
-                  ))}
-                </Slider> */}
+             
+                 
+                       <img src={catThumb1} alt="thumb" />
+               
                 <div className="banner_card_shapes">
                   <img src={imgFrameShape} alt="shape" />
                 </div>
